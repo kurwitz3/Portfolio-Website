@@ -1,6 +1,5 @@
 import React from 'react'
 import './App.css';
-
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import Navbar from './components/Navbar'
 import Home from './components/Home'
@@ -11,7 +10,7 @@ import Contact from './components/Contact'
 
 function App() {
   return (
-    <Router>
+  <Router>
     <div className="App">
       <header className="App-header">
         <Navbar />
@@ -21,19 +20,10 @@ function App() {
              <Route path='/Resume' component={Resume}/>
              <Route path='/About' component={About}/>
              <Route path='/Contact' component={Contact}/>
-        
           </Switch>
-
-        <div>
-         
-        </div>
-        
-        
-        
       </header>
-     
     </div>
-    </Router>
+  </Router>
   );
 }
 

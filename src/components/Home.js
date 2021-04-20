@@ -8,13 +8,18 @@ const Home = () =>{
           <h1 id="name">Richard Kurwitz</h1>
           <p id="title"> A Full Stack Web Developer</p>
           <button id="btn">Resume</button>
-          <i class="devicon-redux-original"></i>
-          <i class="devicon-react-original"></i>
-          <i class="devicon-rails-plain-wordmark"></i>
-          <i class="devicon-javascript-plain"></i>
-          <i class="devicon-html5-plain-wordmark"></i>
-          <i class="devicon-css3-plain-wordmark"></i>
-          <img id='me' src={Pic}></img>
+          <i className="devicon-redux-original"></i>
+          <i className="devicon-react-original"></i>
+          <i className="devicon-rails-plain-wordmark"></i>
+          <i className="devicon-javascript-plain"></i>
+          <i className="devicon-html5-plain-wordmark"></i>
+          <i className="devicon-css3-plain-wordmark"></i>
+          <i className="devicon-postgresql-plain-wordmark"></i>
+          <i className="devicon-ruby-plain"></i>
+          <i className="devicon-visualstudio-plain"></i>
+          <i className="devicon-heroku-original-wordmark"></i>
+          <i className="devicon-apple-original"></i>
+          <img id='me' src={Pic} alt=''></img>
         </div>
     )
 }

@@ -31,9 +31,9 @@ const Navbar = () => {
           >About</NavLink>
 
           <a href='https://www.linkedin.com/in/richard-kurwitz/' class="devicon-linkedin-plain"></a>
-          <i class="devicon-twitter-original"></i>
+          <i className="devicon-twitter-original"></i>
           <p className='twitter-handle'>@RKurwitz</p>
-          <i class="devicon-github-original-wordmark"></i>
+          <i className="devicon-github-original-wordmark"></i>
           <p className='github-handle'>kurwitz3</p>
           <p className="nav">Richard Kurwitz</p>
         </div>
