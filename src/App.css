@@ -1,4 +1,5 @@
 .App {
+  background-color: black;
   text-align: center;
 }
 
@@ -13,8 +14,58 @@
   }
 }
 
+#welcome{
+  position: relative;
+  top:135px;
+  right: 400px;
+  font-family: OCR A Std, monospace;
+  font-size: 40px;
+}
+
+#btn{
+   position: relative;
+   bottom: 600px;
+  left: 150px;
+   padding:0.3em 1em;
+   border-radius: 8px;
+   color:rgb(7, 7, 7);
+   background-color:#61dafb;
+   font-size:1.1em;
+   border:0;
+   cursor:pointer;
+   margin:1em;
+   font-family: OCR A Std, monospace;
+}
+
+
+#me{
+  height: 800px;
+  width: auto;
+  position: relative;
+  top:-260px;
+left: 200px;
+bottom: 0px;
+}
+
+#name{
+  font-family: 'Rock Salt', cursive;
+  font-weight: 900;
+   font-size: 50px;
+position: relative;
+  right:400px;
+  top:100px;
+  color: #61dafb;
+}
+
+#title{
+  position: relative;
+  top:100px;
+  right:400px;
+  font-family: OCR A Std, monospace;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: #060505;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +86,271 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar{
+  color:#61dafb;
+  margin-bottom: 640px;
+  top:0;
+  height:50px;
+  text-align: left;
+  width: 100%;
+  padding: 12px;
+  background: #27292a;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+
+ 
+}
+
+
+.navLink{
+  font-weight: 900;
+  font-family: 'Rock Salt', cursive;;
+  color: #61dafb;
+  padding: 18px;
+  text-decoration: none;
+  
+}
+.active, .navlink:hover{
+  background-color: #060505;
+  color:#61dafb ;
+}
+
+#signature{
+  font-family: 'Rock Salt', cursive;
+}
+
+.nav{
+  font-size: 40px;
+  margin-left: 70%;
+  margin-top: -325px;
+  font-family: 'Rock Salt', cursive;
+}
+
+.headers{
+  color:#61dafb
+}
+.li1{
+  margin-left: 350px;
+  padding: 0;
+  text-align: left;
+}
+ul li::marker {
+  
+  color: #61dafb ;
+}
+
+.resume{
+  
+  margin-top: 100px;
+}
+
+.hr{
+  position: relative;
+  bottom: 30px;
+  color: #61dafb
+}
+
+.h3{
+  color: #61dafb
+}
+
+.li2{
+  margin-left: 240px;
+  padding: 0;
+  text-align: left;
+}
+
+#IpaDiv{
+  margin: 0;
+}
+
+.portfolio{
+  height: 400px;
+  width: auto;
+ 
+  position: relative;
+  top:30px;
+  left: 90px
+}
+#h1{
+  margin-top:50px;
+  color: #61dafb;
+  font-family: 'Rock Salt', cursive;
+}
+
+#demo{
+  font: bold 20px Arial;
+  text-decoration: none;
+  background-color: #27292a;
+  color: #61dafb;
+  padding: 20px 50px 20px 50px;
+  border-radius: 25px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+
+  position: relative;
+  bottom: 260px;
+  left: 215px;
+}
+
+#IpaP{
+  position: relative;
+  top: 40px;
+}
+
+#IpaH2{
+  position: relative;
+  top:40px;
+  color: #61dafb;
+  
+}
+
+#IpaFront{
+  font: bold 20px Arial;
+  text-decoration: none;
+  background-color: #27292a;
+  color: #61dafb;
+  padding: 20px 50px 20px 50px;
+  border-radius: 25px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  position: relative;
+  bottom: 60px;
+  left: 35px
+  
+}
+
+#IpaBack{
+  font: bold 20px Arial;
+  text-decoration: none;
+  background-color: #27292a;
+  color: #61dafb;
+  padding: 20px 50px 20px 50px;
+  border-radius: 25px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  position: relative;
+  bottom: 160px;
+  right: 160px;
+}
+
+#AOh2{
+  color: #61dafb;
+  position: relative;
+  top:60px
+}
+#AoPic{
+  height: 400px;
+  width: auto;
+ 
+  position: relative;
+  left: 100px;
+  margin-top:50px
+  
+}
+
+#AoP{
+  position: relative;
+  right:10px;
+  top:60px
+  
+}
+
+.devicon-twitter-original{
+  position: relative;
+  top: 10px;
+  left: 100px;
+  color:#2686ed;
+}
+
+.devicon-linkedin-plain{
+  text-decoration: none;
+  font-size: 40px;
+  color: #0452d8;
+  position: relative;
+  top: 10px;
+  left: 60px;
+  
+}
+
+.devicon-redux-original{
+  position: relative;
+  bottom: 450px;
+  left: 150px;
+  font-size: 90px;
+  color: purple;
+}
+
+.devicon-react-original{
+  position: relative;
+  bottom: 450px;
+  right: 500px;
+  font-size: 100px;
+  color: #61dafb;
+}
+
+.devicon-rails-plain-wordmark{
+  position: relative;
+  bottom: 450px;
+  right: 450px;
+  font-size: 100px;
+  color: red;
+}
+
+.twitter-handle{
+    color: white;
+    position: relative;
+    bottom: 70px;
+    left:800px
+    
+}
+
+.devicon-javascript-plain{
+  color: yellow;
+  position: relative;
+  bottom: 450px;
+  right: 400px;
+  font-size: 80px;
+}
+
+.devicon-html5-plain-wordmark{
+  color:red;
+  position: relative;
+  bottom: 450px;
+  right: 350px;
+  font-size: 80px;
+}
+
+.devicon-github-original-wordmark{
+  position: relative;
+  color:61dafb;
+  font-size: 60px;
+    bottom: 158px;
+    left:970px
+}
+
+.github-handle{
+  position: relative;
+  color:white;
+  font-size: 30px;
+    bottom: 221px;
+    left:1040px;
+    
+}
+
+.devicon-css3-plain-wordmark{
+  position: relative;
+  color:blue;
+  bottom: 448px;
+  right: 175px;
+  font-size: 85px;
 }
