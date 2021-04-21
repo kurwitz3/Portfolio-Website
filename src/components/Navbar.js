@@ -29,12 +29,6 @@ const Navbar = () => {
            exact
            className='navLink'
           >About</NavLink>
-
-          <a href='https://www.linkedin.com/in/richard-kurwitz/' class="devicon-linkedin-plain"></a>
-          <i className="devicon-twitter-original"></i>
-          <p className='twitter-handle'>@RKurwitz</p>
-          <i className="devicon-github-original-wordmark"></i>
-          <p className='github-handle'>kurwitz3</p>
           <p className="nav">Richard Kurwitz</p>
         </div>
     )

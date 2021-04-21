@@ -1,13 +1,16 @@
 import React from 'react'
-import Pic from './IMG_0769.jpeg'
+import Pic from './me.jpeg'
 
 const Home = () =>{
     return (
         <div>
           <p id="welcome">Hello! I'm</p>
           <h1 id="name">Richard Kurwitz</h1>
-          <p id="title"> A Full Stack Web Developer</p>
-          <button id="btn">Resume</button>
+          <p id="title">I'm a FlatIron School Graduate who has experience in Ruby on Rails and JavaScript based programming. 
+          A former certified welder making a career change and bringing the same dedication to job performance and strong work ethic and appyling it to coding. 
+          With relentless positivity and strong teamwork skills I will make the perfect canidate to work in any programming environment.
+          </p>
+          
           <i className="devicon-redux-original"></i>
           <i className="devicon-react-original"></i>
           <i className="devicon-rails-plain-wordmark"></i>

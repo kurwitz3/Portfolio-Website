@@ -17,14 +17,15 @@
 
 #welcome{
   position: relative;
-  top:135px;
-  right: 400px;
+  top:80px;
+  right: 00px;
   font-family: OCR A Std, monospace;
   font-size: 40px;
 }
 
 #btn{
    position: relative;
+   text-decoration: none;
    bottom: 600px;
    left: 340px;
    padding:0.3em 1em;
@@ -40,28 +41,29 @@
 
 
 #me{
-  height: 800px;
+  height: 300px;
   width: auto;
   position: relative;
-  bottom: 200px;
-  left: 50px;
+  bottom: 450px;
+  left: 150px;
 
 }
 
 #name{
   font-family: 'Rock Salt', cursive;
   font-weight: 900;
-   font-size: 50px;
-position: relative;
-  right:400px;
-  top:100px;
+  font-size: 50px;
+  position: relative;
+  right:0px;
+  top:60px;
   color: #61dafb;
 }
 
 #title{
   position: relative;
-  top:100px;
-  right:400px;
+  font-size: 35px;
+  top:90px;
+  right:00px;
   font-family: OCR A Std, monospace;
 }
 
@@ -112,7 +114,7 @@ position: relative;
 .nav{
   font-size: 40px;
   margin-left: 70%;
-  margin-top: -325px;
+  margin-top: -335px;
   font-family: 'Rock Salt', cursive;
 }
 
@@ -254,8 +256,6 @@ ul li::marker {
 
 .devicon-twitter-original{
   position: relative;
-  top: 10px;
-  left: 100px;
   color:#2686ed;
 }
 
@@ -264,31 +264,29 @@ ul li::marker {
   font-size: 40px;
   color: #0452d8;
   position: relative;
-  top: 10px;
-  left: 60px;
-  
+  top: 5px;
 }
 
 .devicon-redux-original{
   position: relative;
-  bottom: 450px;
-  left: 500px;
+  bottom: 90px;
+  left: 870px;
   font-size: 90px;
   color: purple;
 }
 
 .devicon-react-original{
   position: relative;
-  bottom: 450px;
-  right: 300px;
+  bottom: 90px;
+  left: 125px;
   font-size: 100px;
   color: #61dafb;
 }
 
 .devicon-rails-plain-wordmark{
   position: relative;
-  bottom: 450px;
-  right: 250px;
+  bottom: 90px;
+  left: 175px;
   font-size: 100px;
   color: red;
 }
@@ -297,87 +295,87 @@ ul li::marker {
     color: white;
     position: relative;
     bottom: 70px;
-    left:800px
+    left:820px
     
 }
 
 .devicon-javascript-plain{
   color: yellow;
   position: relative;
-  bottom: 450px;
-  right: 200px;
+  bottom: 90px;
+  left: 450px;
   font-size: 80px;
 }
 
 .devicon-html5-plain-wordmark{
   color:red;
   position: relative;
-  bottom: 450px;
-  right: 150px;
+  bottom: 90px;
+  left: 250px;
   font-size: 80px;
 }
 
 .devicon-github-original-wordmark{
   position: relative;
-  color:61dafb;
+  color: #61dafb;
   font-size: 60px;
-    bottom: 158px;
-    left:970px
+    bottom: 0px;
+    right:10px
 }
 
 .github-handle{
   position: relative;
   color:white;
   font-size: 30px;
-    bottom: 221px;
-    left:1040px;
+    bottom: 225px;
+    left:1055px;
     
 }
 
 .devicon-css3-plain-wordmark{
   position: relative;
   color:blue;
-  bottom: 450px;
-  right: 100px;
+  bottom: 90px;
+  left: 50px;
   font-size: 85px;
 }
 
 .devicon-postgresql-plain-wordmark{
   position: relative;
   color:blue;
-  bottom: 320px;
-  right: 675px;
+  top: 30px;
+  right: 260px;
   font-size: 85px;
 }
 
 .devicon-ruby-plain{
   position: relative;
   color:red;
-  bottom: 320px;
-  right: 600px;
+  top: 30px;
+  right: 200px;
   font-size: 75px;
 }
 
 .devicon-visualstudio-plain{
   position: relative;
   color:#0421f7;
-  bottom: 320px;
-  right: 525px;
+  top: 30px;
+  right: 130px;
   font-size: 75px;
 }
 
 .devicon-heroku-original-wordmark{
   position: relative;
   color:#a50ef0;
-  bottom: 320px;
-  right: 450px;
+  top: 30px;
+  right: 75px;
   font-size: 75px;
 }
 
 .devicon-apple-original{
   position: relative;
   color:#545155;
-  bottom: 320px;
-  right: 375px;
+  top: 30px;
+  right: 30px;
   font-size: 75px;
 }
