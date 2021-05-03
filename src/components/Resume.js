@@ -5,7 +5,7 @@ const Resume = () => {
     return (
         <div className='resume'>
             <h1 className="headers">Richard Kurwitz</h1>
-            <p>Germantown, Maryland 20874 | 661-246-6861 | kurwitz3@aol.com</p>
+            <p>Germantown, Maryland 20874 | 661-246-6861 | Kurwitz86@gmail.com</p>
             <p><i className="devicon-github-original-wordmark"></i>kurwitz3 | <i className="devicon-twitter-original"></i>@RKurwitz | <a href='https://www.linkedin.com/in/richard-kurwitz/' class="devicon-linkedin-plain"></a> </p>
             <h2 className='headers'>FULL STACK WEB DEVELOPER</h2>
             <hr className='hr'></hr>

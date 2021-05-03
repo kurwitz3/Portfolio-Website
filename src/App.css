@@ -41,11 +41,12 @@
 
 
 #me{
-  height: 300px;
+  height: 700px;
   width: auto;
   position: relative;
-  bottom: 450px;
-  left: 150px;
+  bottom: 350px;
+  left: 190px;
+  margin: 0;
 
 }
 
@@ -61,9 +62,8 @@
 
 #title{
   position: relative;
-  font-size: 35px;
+  font-size: 30px;
   top:90px;
-  right:00px;
   font-family: OCR A Std, monospace;
 }
 
@@ -112,9 +112,11 @@
 }
 
 .nav{
+  position: relative;
+  left:1200px;
+  bottom:130px;
   font-size: 40px;
-  margin-left: 70%;
-  margin-top: -335px;
+  
   font-family: 'Rock Salt', cursive;
 }
 
@@ -269,24 +271,24 @@ ul li::marker {
 
 .devicon-redux-original{
   position: relative;
-  bottom: 90px;
-  left: 870px;
+  bottom: 375px;
+  left: 10px;
   font-size: 90px;
   color: purple;
 }
 
 .devicon-react-original{
   position: relative;
-  bottom: 90px;
-  left: 125px;
+  bottom: 500px;
   font-size: 100px;
+  right:80px;
   color: #61dafb;
 }
 
 .devicon-rails-plain-wordmark{
   position: relative;
-  bottom: 90px;
-  left: 175px;
+  bottom: 500px;
+  right: 20px;
   font-size: 100px;
   color: red;
 }
@@ -302,16 +304,16 @@ ul li::marker {
 .devicon-javascript-plain{
   color: yellow;
   position: relative;
-  bottom: 90px;
-  left: 450px;
+  bottom: 500px;
+  left: 40px;
   font-size: 80px;
 }
 
 .devicon-html5-plain-wordmark{
   color:red;
   position: relative;
-  bottom: 90px;
-  left: 250px;
+  bottom: 500px;
+  left: 100px;
   font-size: 80px;
 }
 
@@ -335,40 +337,40 @@ ul li::marker {
 .devicon-css3-plain-wordmark{
   position: relative;
   color:blue;
-  bottom: 90px;
-  left: 50px;
+  bottom: 500px;
+  left: 160px;
   font-size: 85px;
 }
 
 .devicon-postgresql-plain-wordmark{
   position: relative;
   color:blue;
-  top: 30px;
-  right: 260px;
+  bottom: 375px;
+  left: 75px;
   font-size: 85px;
 }
 
 .devicon-ruby-plain{
   position: relative;
   color:red;
-  top: 30px;
-  right: 200px;
+  bottom: 375px;
+  right: 450px;
   font-size: 75px;
 }
 
 .devicon-visualstudio-plain{
   position: relative;
   color:#0421f7;
-  top: 30px;
-  right: 130px;
+  bottom: 375px;
+  right: 370px;
   font-size: 75px;
 }
 
 .devicon-heroku-original-wordmark{
   position: relative;
   color:#a50ef0;
-  top: 30px;
-  right: 75px;
+  bottom: 375px;
+  right: 300px;
   font-size: 75px;
 }
 
@@ -378,4 +380,52 @@ ul li::marker {
   top: 30px;
   right: 30px;
   font-size: 75px;
+}
+.card{
+  margin-right:800px
+ 
+}
+
+.about{
+  font-size: 30px;
+ 
+  position: relative;
+  top:200px;
+  margin-right:800px;
+ 
+  
+}
+.about-pic{
+  height: 900px;
+  width: auto;
+ 
+  position: relative;
+  
+  bottom: 730px;
+  left: 600px;
+  margin-bottom: -110;
+}
+
+
+.my-story{
+  color: #61dafb;
+  font-family: 'Rock Salt', cursive;
+  position: relative;
+  top: 100px;
+  right: 380px
+}
+
+#about{
+  margin: 0;
+  padding: 0;
+}
+
+#img-div{
+ height: 200px;
+}
+#home-div{
+  height:900px;
+  margin-bottom:0;
+  overflow: hidden;
+  
 }
