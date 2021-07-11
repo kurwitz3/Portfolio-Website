@@ -11,7 +11,6 @@ html,body
 }
 
 #home-div{
-  
   width:70%;
   height: 750px;
   border-radius: 90px;
@@ -221,7 +220,6 @@ pre{
   top:10px;
   left: 280px;
   z-index: 4;
-
 }
 
 .Frontend{
@@ -298,24 +296,21 @@ pre{
     position: relative;
     bottom: 70px;
     left:820px
-    
 }
 
 .devicon-github-original-wordmark{
   position: relative;
   color: #61dafb;
   font-size: 60px;
-    bottom: 0px;
-    right:10px
+  right:10px
 }
 
 .github-handle{
   position: relative;
   color:white;
   font-size: 30px;
-    bottom: 225px;
-    left:1055px;
-    
+  bottom: 225px;
+  left:1055px;
 }
 
 .about{
@@ -382,6 +377,7 @@ pre{
   left:300px;
   z-index: 4;
 }
+
 #overlay{
   background-color: rgba(1, 1, 1, 0.378);
   align-self: center;
@@ -390,7 +386,7 @@ pre{
   border-radius: 45px;
   position:relative;
   top:130px;
-  
+
 }
 
 
