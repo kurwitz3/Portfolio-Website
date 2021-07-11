@@ -11,16 +11,14 @@ import About from './components/About'
 function App() {
   return (
     <Router>
-      <div className="App">
-        <header className="App-header">
-          <Navbar />
-            <Switch>
-               <Route exact path='/' component={Home}/>
-               <Route path='/Portfolio' component={Portfolio}/>
-               <Route path='/Resume' component={Resume}/>
-               <Route path='/About' component={About}/>
-            </Switch>
-        </header>
+      <div className="background">
+        <Navbar />
+          <Switch>
+             <Route exact path='/' component={Home}/>
+             <Route path='/Portfolio' component={Portfolio}/>
+             <Route path='/Resume' component={Resume}/>
+             <Route path='/About' component={About}/>
+          </Switch>
       </div>
     </Router>
   );

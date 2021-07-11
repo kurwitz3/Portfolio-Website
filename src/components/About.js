@@ -5,6 +5,7 @@ import Pic from './me.jpeg'
 const About = () => {
     return (
         <div id='about'>
+          <div id="overlay">
             <h1 className='my-story'>My Story</h1>
             <p className='about'>
               I was born and raised in a small town in California. I'm a very creative and outoging person who has a passion
@@ -25,7 +26,7 @@ const About = () => {
               I'm looking to start my career in full stack development and join a develpoment team where I can put my creativity and hard work
               ethics to use.
             </p>
-            <div id='img-div'> <img  className="about-pic" src={Pic} alt=''></img></div>
+            </div>
         </div>
     )
 }

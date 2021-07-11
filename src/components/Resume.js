@@ -58,10 +58,10 @@ const Resume = () => {
                 <li className='li2'>Implemented a rotation system on the production line, which provided cross training, boosted morale, and reduced turn over.</li>
             </ul>
             <h2 className='headers'>EDUCATION</h2><hr className='hr'></hr>
-            <pre>         FlatIron School                                                                  Online</pre>
-            <pre>         Full Stack Web Development, Ruby on Rails and JavaScript program      08/2020 - 04/2021</pre><br></br>
-            <pre>         Liberty High School                                             Bakersfield, California</pre>
-            <pre>         High School Graduate                                                        2001 - 2005</pre>
+            <pre>FlatIron School                                                                             Online</pre>
+            <pre>Full Stack Web Development, Ruby on Rails and JavaScript program                       08/2020 - 04/2021</pre><br></br>
+            <pre>Liberty High School                                                                    Bakersfield, California</pre>
+            <pre>High School Graduate                                                                         2001 - 2005</pre>
         </div>
     )
 }
