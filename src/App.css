@@ -351,17 +351,18 @@ pre{
 
 #about{
   background-image: url('https://storycodex.files.wordpress.com/2015/01/grey4.jpg');
+  background-size:contain ;
+  align-self: center;
+  margin: auto;
   width: 65%;
-  height: 1250px;
+  height:100%;
   border-radius: 65px;
   border-color: black;
   border-width: 10px;
   border-style: groove;
   position: relative;
   top:150px;
-  left: 300px;
-  margin: 0;
-  padding: 0;
+  overflow: scroll;
   z-index: 4;
 }
 
@@ -383,12 +384,13 @@ pre{
 }
 #overlay{
   background-color: rgba(1, 1, 1, 0.378);
+  align-self: center;
+  margin: auto;
   width: 600px;
   border-radius: 45px;
-  position: relative;
-  left: 280px;
+  position:relative;
   top:130px;
- float: left;
+  
 }
 
 
