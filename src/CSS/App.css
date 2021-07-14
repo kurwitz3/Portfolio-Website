@@ -157,110 +157,12 @@ pre{
   border-radius: 90px;
 }
 
-.portfolio__container{
-  background-image: url('https://storycodex.files.wordpress.com/2015/01/grey4.jpg');
-  background-size:100% 100% ;
-  margin: auto;
-  margin-bottom: 50px;
-  width: 60%;
-  height:100%;
-  border-radius: 65px;
-  border-color: black;
-  border-width: 10px;
-  border-style: groove;
-  position: relative;
-  top:150px;
-  overflow: scroll;
-  z-index: 4;
-}
-
-.portfolio__image{
-  height: 400px;
-  display: flex;
-  align-self: center;
-  margin: auto;
- 
-}
-
-.portfoli_H1{
-  font-size: 65px;
-  color: #f8f4f4;
-  font-family: 'Rock Salt', cursive;
-  position: relative;
-  left: 660px;
-  margin-top: 100px;
-  z-index: 4;
-}
-
-.portfolio__h2{
-  color: #070707;
-  text-align: center;
-  font-size: 40px;
-  font-family: 'Rock Salt', cursive;;
-}
-
-.portfolio__demo{
-  font: bold 11px Arial;
-  font-size: 20px;
-  font-family: 'Rock Salt', cursive;;
-  text-decoration: none;
-  background-color: #090909;
-  color: #fafafa;
-  padding: 2px 6px 2px 6px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
-  border-radius: 10px;
-  position: sticky;
-  left:100px;
-  margin: auto;
-  z-index: 4;
-}
-
 #IpaP{
   font-size: 25px;
   color: #fef9f9;
   position: relative;
   top: 10px;
   z-index: 4;
-}
-
-.portfolio__Frontend{
-  font: bold 11px Arial;
-  font-size: 20px;
-  font-family: 'Rock Salt', cursive;;
-  text-decoration: none;
-  align-self: center;
-  margin: auto;
-  background-color: #090909;
-  color: #fafafa;
-  padding: 2px 6px 2px 6px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
-  border-radius: 10px;
-  position: sticky;
-  left: 300px;
-  z-index: 4;
-}
-
-.portfolio__Backend{
-  font: bold 11px Arial;
-  font-size: 20px;
-  font-family: 'Rock Salt', cursive;;
-  text-decoration: none;
-  align-self: center;
-  margin: auto;
-  background-color: #090909;
-  color: #fafafa;
-  padding: 2px 6px 2px 6px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
-  border-radius: 10px;
 }
 
 #AoP{
