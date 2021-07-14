@@ -1,0 +1,90 @@
+.resume {
+  position: relative;
+  margin-top: 100px;
+  z-index: 4;
+}
+
+.resume__H2 {
+  font-size: 40px;
+  position: relative;
+  left:700px;
+  color:#f3f9f3;
+  z-index: 4;
+}
+  
+.resume_SElistItems {
+  color: white;
+  font-size: 25px;
+  margin-left: 0px;
+  padding: 0;
+  text-align: left;
+}
+  
+ul li::marker {
+  color: #faf7f7;
+  z-index: 4;
+}
+  
+pre {
+  color: white;
+  font-size: 20px;
+}
+  
+.resume__Hr {
+  position: relative;
+  width: 100%;
+  bottom: 30px;
+  color: #3fc64a;
+  z-index: 4;
+}
+  
+.resume__projectTitle {
+  color: #ffffff;
+  z-index: 4;
+}
+  
+.resume__WorkListItems {
+  color: white;
+  font-size: 25px;
+  margin-left: opx;
+  padding: 0;
+  text-align: left;
+}
+
+.devicon-twitter-original {
+  position: relative;
+  left: 750px;
+  color:#2686ed;
+  font-size: 40px;
+}
+
+.devicon-linkedin-plain {
+  text-decoration: none;
+  font-size: 40px;
+  color: #0452d8;
+  position: relative;
+  top: 5px;
+  left:800px;
+}
+
+.twitter-handle {
+    color: white;
+    position: relative;
+    bottom: 70px;
+    left:820px
+}
+
+.devicon-github-original-wordmark {
+  position: relative;
+  color: #61dafb;
+  font-size: 60px;
+  right:10px
+}
+
+.github-handle {
+  position: relative;
+  color:white;
+  font-size: 30px;
+  bottom: 225px;
+  left:1055px;
+}
