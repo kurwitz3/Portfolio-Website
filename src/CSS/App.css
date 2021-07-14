@@ -210,70 +210,13 @@ pre{
   left:1055px;
 }
 
-.about{
-  color: rgb(252, 248, 248);
-  font-size: 23px;
-  font-weight: 800;
-  position: relative;
-  padding-left: 70px;
-  padding-right: 70px;
-  bottom: 100px;
-  position: relative;
-}
-
-
-.about-pic{
-  height: 900px;
-  width: auto;
-  position: relative;
-  bottom: 710px;
-  left: 600px;
-  margin-bottom: -110;
-}
-
-
-.my-story{
-  color: #040404;
-  font-size: 55px;
-  font-family: 'Rock Salt', cursive;
-  position: relative;
-  bottom: 170px;
-  left: 150px;
-}
-
-#about{
-  background-image: url('https://storycodex.files.wordpress.com/2015/01/grey4.jpg');
-  background-size:contain ;
-  align-self: center;
-  margin: auto;
-  width: 65%;
-  height:100%;
-  border-radius: 65px;
-  border-color: black;
-  border-width: 10px;
-  border-style: groove;
-  position: relative;
-  top:150px;
-  overflow: scroll;
-  z-index: 4;
-}
-
 #img-div{
  height: 200px;
 }
 
 
 
-#overlay{
-  background-color: rgba(1, 1, 1, 0.378);
-  align-self: center;
-  margin: auto;
-  width: 600px;
-  border-radius: 45px;
-  position:relative;
-  top:130px;
 
-}
 
 
 
