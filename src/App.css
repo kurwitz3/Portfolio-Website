@@ -159,10 +159,10 @@ pre{
 
 .portfolio{
   height: 400px;
-  width: auto;
-  position: relative;
-  top:30px;
-  left: 170px
+  display: flex;
+  align-self: center;
+  margin: auto;
+ 
 }
 
 #h1{
@@ -188,9 +188,9 @@ pre{
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
   border-radius: 10px;
-  position: relative;
-  top: 10px;
-  left:250px;
+  position: sticky;
+  left:100px;
+  margin: auto;
   z-index: 4;
 }
 
@@ -204,12 +204,9 @@ pre{
 
 .portfolio-h2{
   color: #070707;
+  text-align: center;
   font-size: 40px;
   font-family: 'Rock Salt', cursive;;
-  position: relative;
-  top:10px;
-  left:390px;
-  z-index: 4;
 }
 
 #Ao-H2{
@@ -227,6 +224,8 @@ pre{
   font-size: 20px;
   font-family: 'Rock Salt', cursive;;
   text-decoration: none;
+  align-self: center;
+  margin: auto;
   background-color: #090909;
   color: #fafafa;
   padding: 2px 6px 2px 6px;
@@ -235,9 +234,8 @@ pre{
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
   border-radius: 10px;
-  position: relative;
-  top: 10px;
-  left: 325px;
+  position: sticky;
+  left: 300px;
   z-index: 4;
 }
 
@@ -246,17 +244,10 @@ pre{
   font-size: 20px;
   font-family: 'Rock Salt', cursive;;
   text-decoration: none;
-  background-color: #090909;
-  color: #fafafa;
-  padding: 2px 6px 2px 6px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
-  border-radius: 10px;
-  position: relative;
-  top: 10px;
-  left: 400px;
+ text-align: center;
+ position: relative;
+ 
+  
   z-index: 4;
 }
 
@@ -364,19 +355,8 @@ pre{
 #img-div{
  height: 200px;
 }
-.portfolio-divs{
-  background-image: url('https://storycodex.files.wordpress.com/2015/01/grey4.jpg');
-  width: 65%;
-  height: 650px;
-  border-radius: 65px;
-  border-color: black;
-  border-width: 10px;
-  border-style: groove;
-  position: relative;
-  margin-bottom: 100px;
-  left:300px;
-  z-index: 4;
-}
+
+
 
 #overlay{
   background-color: rgba(1, 1, 1, 0.378);
@@ -388,6 +368,25 @@ pre{
   top:130px;
 
 }
+.portfolio-container{
+  background-image: url('https://storycodex.files.wordpress.com/2015/01/grey4.jpg');
+  background-size:contain ;
+  align-self: center;
+  margin: auto;
+  width: 50%;
+  height:100%;
+  border-radius: 65px;
+  border-color: black;
+  border-width: 10px;
+  border-style: groove;
+  position: relative;
+  top:150px;
+  overflow: scroll;
+  z-index: 4;
+}
+
+
+  
 
 
 
