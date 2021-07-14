@@ -1,5 +1,5 @@
 import React from 'react'
-import Pic from './me.jpeg'
+
 
 
 const About = () => {

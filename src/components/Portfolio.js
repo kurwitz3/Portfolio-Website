@@ -7,6 +7,7 @@ class Portfolio extends Component{
   render(){
     return (
        <div>
+         <h1 className="portfilio__H1">PROJECTS</h1>
           <ILoveIpa />
           <AmericanOutfitters />
        </div>
