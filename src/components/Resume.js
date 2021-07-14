@@ -6,7 +6,9 @@ const Resume = () => {
         <div className='resume'>
             <h1 className="resume__H1">Richard Kurwitz</h1>
             <p className="resume__personal-Info">Germantown, Maryland  20874 | 661-246-6861 | Kurwitz86@gmail.com</p>
-            <p><i className="devicon-github-original-wordmark"></i>kurwitz3 | <i className="devicon-twitter-original"></i>@RKurwitz | <a href='https://www.linkedin.com/in/richard-kurwitz/' class="devicon-linkedin-plain"></a> </p>
+            <a href="https://github.com/kurwitz3" className="devicon-github-original-wordmark"></a>
+            <a href="https://twitter.com/RKurwitz" className="devicon-twitter-original"></a> 
+            <a href='https://www.linkedin.com/in/richard-kurwitz/' className="devicon-linkedin-plain"></a>
             <h2 className='resume__H2'>FULL STACK WEB DEVELOPER</h2>
             <hr className='resume__Hr'></hr>
             <p className="resume__opening-paragraph">Internally motivated self-starter seeing a position as a full-stack web developer. Eperienced in Ruby on Rails
@@ -60,7 +62,7 @@ const Resume = () => {
                 <li className='resume__WorklistItems'>Supervised a 15-man crew responsible for packaging of salmon, opilio crab and king crab.</li>
                 <li className='resume__WorklistItems'>Implemented a rotation system on the production line, which provided cross training, boosted morale, and reduced turn over.</li>
             </ul>
-            <h2 className='resume_H2'>EDUCATION</h2>
+            <h2 className='resume__H2'>EDUCATION</h2>
             <hr className='resume__Hr'></hr>
             <pre>FlatIron School                                                                             Online</pre>
             <pre>Full Stack Web Development, Ruby on Rails and JavaScript program                       08/2020 - 04/2021</pre><br></br>

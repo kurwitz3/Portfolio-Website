@@ -107,41 +107,35 @@ pre {
 }
 
 .devicon-twitter-original {
+  text-decoration: none;
+  font-size: 60px;
   position: relative;
-  left: 750px;
+  left: 800px;
   color:#2686ed;
-  font-size: 40px;
-}
+ }
 
 .devicon-linkedin-plain {
   text-decoration: none;
-  font-size: 40px;
+  font-size: 70px;
   color: #0452d8;
   position: relative;
   top: 5px;
-  left:800px;
-}
-
-.twitter-handle {
-    color: white;
-    position: relative;
-    bottom: 70px;
-    left:820px
+  left:900px;
 }
 
 .devicon-github-original-wordmark {
-  position: relative;
   color: #61dafb;
-  font-size: 60px;
-  right:10px
+  font-size: 70px;
+  text-decoration: none;
+  position: relative;
+  top: 5px;
+  left:700px;
 }
 
-.github-handle {
-  position: relative;
-  color:white;
-  font-size: 30px;
-  bottom: 225px;
-  left:1055px;
+.devicon-github-original-wordmark:hover,
+.devicon-linkedin-plain:hover,
+.devicon-twitter-original:hover {
+   color:white;
 }
 
 p {
