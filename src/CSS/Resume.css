@@ -1,69 +1,67 @@
 .resume {
   position: relative;
   margin-top: 100px;
-  z-index: 4;
+  
 }
 
 .resume__H1 {
   color: rgb(247, 247, 247);
-  font-size: 70px;
+  font-size: 2.5rem;
   text-align: center;
 }
 
+.resume__info-and-links {
+  width: 50%;
+  margin:auto;
+} 
+
 .resume__personal-Info {
   color: white;
-  font-size: 30px;
+  font-weight: 800;
+  font-size: 0.9rem;
   text-align: center;
 }
 
 .resume__H2 {
   color: rgb(254, 254, 254);
   text-align: center;
-  font-size: 40px;
+  font-size: 1.4rem;
   position: relative;
-  padding-bottom: 20px;
+  margin-top: 50px;
+  padding-bottom: 1.3rem;
   z-index: 4;
 }
 
 .resume__H3 {
   color: rgb(14, 14, 14);
-  font-size: 40px;
+  font-size: 2.5rem;
   text-align: center;
 }
 
 .resume__opening-paragraph {
   color: white;
-  font-size: 25px;
-  padding: 0 300px;
-  padding-bottom: 60px;
+  font-weight: 800;
+  font-size: 1.1rem;
+  padding:0 2.2rem;
+  padding-bottom: 3.75rem;
 }
 
 .resume__skills {
   color: white;
-  font-size: 30px;
+  font-weight: 800;
+  font-size: 1.3rem;
   text-align: center;
-  padding-bottom: 60px;
-}
-  
-.resume_SElistItems {
-  color: white;
-  font-size: 25px;
-  margin-left: 0px;
-  padding: 0;
-  text-align: left;
+  padding-bottom: 3.75rem;
 }
   
 ul li::marker {
   color: #faf7f7;
-  z-index: 4;
 }
 
 .resume__Ul {
   color: white;
-  font-size: 20px;
-  align-self: center;
-  margin: auto;
-  width: 30%;
+  font-weight: 800;
+  font-size: 1rem;
   margin-bottom: 100px;
 }
 
@@ -73,13 +71,9 @@ ul li::marker {
 
 .resume__project-description {
   color: white;
-  font-size: 25px;
+  font-weight: 800;
+  font-size: 1.1rem;
   text-align: center;
-}
-  
-pre {
-  color: white;
-  font-size: 20px;
 }
   
 .resume__Hr {
@@ -92,8 +86,8 @@ pre {
 }
   
 .resume__projectTitle {
-  color: #000000;
-  font-size: 50px;
+  color: #f5f2f2;
+  font-size: 2rem;
   text-align: center;
   z-index: 4;
 }
@@ -106,30 +100,35 @@ pre {
   text-align: left;
 }
 
+pre {
+  color: white;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.resume__education {
+  font-weight: 800;
+}
+
 .devicon-twitter-original {
   text-decoration: none;
-  font-size: 60px;
-  position: relative;
-  left: 800px;
+  font-size: 2.5rem;
   color:#2686ed;
+  margin-left: 30px;
  }
 
 .devicon-linkedin-plain {
   text-decoration: none;
-  font-size: 70px;
+  font-size: 2.5rem;
   color: #0452d8;
-  position: relative;
-  top: 5px;
-  left:900px;
+  margin-left: 30px;
 }
 
 .devicon-github-original-wordmark {
   color: #61dafb;
-  font-size: 70px;
+  font-size: 2.8rem;
   text-decoration: none;
-  position: relative;
-  top: 5px;
-  left:700px;
+  margin:auto;
 }
 
 .devicon-github-original-wordmark:hover,
@@ -140,4 +139,92 @@ pre {
 
 p {
     color: white;
+}
+
+@media (min-width: 30rem) {
+  .resume__info-and-links {
+    width: 25%;
+    margin:auto;
+   }
+
+   .resume__H1 {
+     font-size: 3.5rem;
+   }
+
+   .resume__H2 {
+     font-size: 2rem;
+   }
+
+   .resume__personal-Info {
+     font-size: 1.3rem;
+   }
+
+   .resume__opening-paragraph {
+    font-size: 1.4rem;
+    padding-left: 4rem;
+   }
+
+   .resume__skills {
+    font-size: 1.7rem;
+   }
+
+   .devicon-github-original-wordmark {
+    font-size: 10rem;
+  }
+  
+  @media (min-width: 68rem){
+    .resume__info-and-links {
+      width: 12%;
+      margin:auto;
+    }
+
+    .resume__H1 {
+      font-size: 3.9rem;
+    }
+ 
+    .resume__H2 {
+      font-size: 2.5rem;
+    }
+ 
+    .resume__personal-Info {
+      font-size: 1.7rem;
+    }
+ 
+    .resume__opening-paragraph {
+     font-size: 1.7rem;
+     padding-left: 7rem;
+    }
+ 
+    .resume__skills {
+     font-size: 2rem;
+    }
+
+    .resume__projectTitle {
+      font-size: 2.7rem;
+    }
+
+    .resume__Ul {
+      color: white;
+      font-size: 1.5rem;
+      align-self: center;
+      margin: auto;
+      width: 50%;
+      margin-bottom: 100px;
+    }
+
+    .resume__project-description {
+      font-size: 2rem;
+    }
+
+    pre {
+      font-size: 1.7rem;
+      text-align: center; 
+    }
+
+    .resume__education {
+      font-size: 1.5rem;
+      font-weight: 800;
+      text-align: center;
+    }
+  }
 }
