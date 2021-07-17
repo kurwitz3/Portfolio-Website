@@ -1,19 +1,3 @@
-.portfolio__container {
-  background-image: url('https://e7.pngegg.com/pngimages/158/254/png-clipart-black-crystal-illustration-light-desktop-blue-black-cyan-black-background-purple-blue.png');
-  background-size:100% 100% ;
-  margin: auto;
-  margin-bottom: 150px;
-  width: 60%;
-  height: 600px;
-  border: solid black;
-  border-radius: 65px;
-  box-shadow: 4px 4px 4px 6px rgb(7, 7, 7);
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  overflow: scroll;
-}
-
 .portfolio__H1 {
   color: #070707;
   font-size: 2rem;
@@ -53,7 +37,6 @@
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
   border-radius: 10px;
-  margin-left: 40px;
 }
 
 .portfolio__Frontend {
@@ -104,24 +87,22 @@
   border: solid black;
   box-shadow: 1px 1px 25px 5px rgb(22, 182, 210);
   margin-top: 40px;
-  margin-bottom: 60px;
-  margin-left: 15px;
+  margin-bottom: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.portfolio__pic {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.portfolio__buttons {
-  display: inline-block;
-  vertical-align: middle;
+.portfolio__project-links {
+  text-align: center;
 }
 
 @media (min-width: 37rem) {
   .portfolio__image {
     height: 300px;
-    margin-left: 110px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .portfolio__H1 {
@@ -132,14 +113,44 @@
     font-size: 2.5rem;
   }
 
-  .portfolio__demo {
-    font-size: 1.1rem;
-    margin-left: 180px;
+  .portfolio__Backend,
+  .portfolio__Frontend,
+  .portfolio__demo  {
+    font-size: 0.9rem;
+  }
+
+  .portfolio__project-links {
+    text-align: center;
+  }
+}
+
+@media (min-width: 65rem) {
+  
+  .portfolio__image {
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+
+  .portfolio__H1 {
+    font-size: 5rem;
+    text-shadow: 2px 2px 2px rgb(22, 182, 210);
+  }
+   
+  .portfolio__h2 {
+   font-size: 4rem;
+   text-shadow: 2px 2px 2px rgb(22, 182, 210);
+  }
+  
+  .portfolio__project-links {
+    text-align: center;
   }
 
   .portfolio__Backend,
-  .portfolio__Frontend {
-    font-size: 1.1rem;
+  .portfolio__Frontend,
+  .portfolio__demo  {
+    font-size: 1.2rem;
   }
-
 }

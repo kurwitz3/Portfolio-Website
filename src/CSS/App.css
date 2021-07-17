@@ -70,6 +70,7 @@ html,body {
   width: 100%;
   padding: 12px;
   background: #010101;
+  border-bottom: 2px solid rgb(22, 182, 210);
   position: fixed;
   z-index: 999;
 }
