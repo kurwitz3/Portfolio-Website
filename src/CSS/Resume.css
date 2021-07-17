@@ -6,6 +6,7 @@
 
 .resume__H1 {
   color: rgb(247, 247, 247);
+  text-shadow: 2px 2px 2px rgb(22, 182, 210);
   font-size: 2.5rem;
   text-align: center;
 }
@@ -25,11 +26,11 @@
 .resume__H2 {
   color: rgb(254, 254, 254);
   text-align: center;
+  text-shadow: 2px 2px 2px rgb(22, 182, 210);
   font-size: 1.4rem;
   position: relative;
   margin-top: 50px;
   padding-bottom: 1.3rem;
-  z-index: 4;
 }
 
 .resume__H3 {
@@ -87,6 +88,7 @@ ul li::marker {
   
 .resume__projectTitle {
   color: #f5f2f2;
+  text-shadow: 2px 2px 2px rgb(22, 182, 210);
   font-size: 2rem;
   text-align: center;
   z-index: 4;
