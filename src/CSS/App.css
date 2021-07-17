@@ -36,6 +36,9 @@ html,body {
   left: 900px;
   bottom: 200px;
   margin: 0;
+  border-radius: 25px;
+  box-shadow: 1px 1px 6px 7px #15ed0a;
+  border: 10px solid rgb(63, 61, 61);
 }
 
 #name{
@@ -75,13 +78,14 @@ html,body {
   font-weight: 900;
   font-size: 30px;
   font-family: 'Rock Salt', cursive;;
-  color: #f9faf9;
+  color: #5b5b5b;
+  text-shadow: 2px 2px 2px rgb(22, 182, 210);
   padding: 18px;
   text-decoration: none;
 }
 
 .active, .navlink:hover{
-  color:#6c6a6a ;
+  color:#f4f1f1 ;
 }
 
 #signature{

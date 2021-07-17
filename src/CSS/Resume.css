@@ -167,12 +167,8 @@ p {
    .resume__skills {
     font-size: 1.7rem;
    }
-
-   .devicon-github-original-wordmark {
-    font-size: 10rem;
-  }
   
-  @media (min-width: 68rem){
+   @media (min-width: 68rem){
     .resume__info-and-links {
       width: 12%;
       margin:auto;
@@ -226,5 +222,6 @@ p {
       font-weight: 800;
       text-align: center;
     }
+    
   }
 }

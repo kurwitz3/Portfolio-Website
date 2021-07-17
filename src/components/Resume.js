@@ -7,8 +7,8 @@ const Resume = () => {
             <h1 className="resume__H1">Richard Kurwitz</h1>
                <p className="resume__personal-Info">Germantown, Maryland  20874 | 661-246-6861 | Kurwitz86@gmail.com</p>
             <div className="resume__info-and-links">
-                   <a href="https://github.com/kurwitz3" className="devicon-github-original-wordmark"></a>
-                   <a href="https://twitter.com/RKurwitz" className="devicon-twitter-original"></a> 
+                   <a href="https://github.com/kurwitz3" className="devicon-github-original-wordmark"><i  aria-hidden="true"></i></a>
+                   <a href="https://twitter.com/RKurwitz"  className="devicon-twitter-original"></a> 
                    <a href='https://www.linkedin.com/in/richard-kurwitz/' className="devicon-linkedin-plain"></a>
             </div>
             <section>

@@ -10,7 +10,7 @@ const Home = () =>{
           A former certified welder making a career change and bringing the same dedication and strong work ethics to job performance and appyling it to coding. 
           With relentless positivity and strong teamwork skills, I will make the perfect candidate to work in any programming environment.
           </p>
-          {/*<img id='me' src={Pic} alt=''></img>*/}
+          <img id='me' src={Pic} alt=''></img>
         </div>
     )
 }
