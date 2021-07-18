@@ -1,19 +1,16 @@
 .resume {
-  position: relative;
   margin-top: 100px;
-  
 }
 
 .resume__H1 {
   color: rgb(247, 247, 247);
+  font-size: 1.8rem;
   text-shadow: 4px 4px 4px rgb(6, 6, 6);
-  font-size: 2.5rem;
   text-align: center;
 }
 
 .resume__info-and-links {
-  width: 50%;
-  margin:auto;
+  text-align: center;
 } 
 
 .resume__personal-Info {
@@ -21,28 +18,23 @@
   font-weight: 800;
   font-size: 0.9rem;
   text-align: center;
+  text-shadow: 4px 4px 4px rgb(6, 6, 6);
 }
 
 .resume__H2 {
   color: rgb(254, 254, 254);
+  font-size: 1.4rem;
   text-align: center;
   text-shadow: 4px 4px 4px rgb(6, 6, 6);
-  font-size: 1.4rem;
-  position: relative;
   margin-top: 50px;
   padding-bottom: 1.3rem;
-}
-
-.resume__H3 {
-  color: rgb(14, 14, 14);
-  font-size: 2.5rem;
-  text-align: center;
 }
 
 .resume__opening-paragraph {
   color: white;
   font-weight: 800;
-  font-size: 1.1rem;
+  font-size:  0.9rem;
+  text-shadow: 4px 4px 4px rgb(6, 6, 6);
   padding:0 2.2rem;
   padding-bottom: 3.75rem;
 }
@@ -50,111 +42,98 @@
 .resume__skills {
   color: white;
   font-weight: 800;
-  font-size: 1.3rem;
+  font-size: 1rem;
   text-align: center;
+  text-shadow: 4px 4px 4px rgb(6, 6, 6);
   padding-bottom: 3.75rem;
 }
-  
-ul li::marker {
-  color: #faf7f7;
-}
 
-.resume__Ul {
-  color: white;
-  font-weight: 800;
-  font-size: 1rem;
-  margin-bottom: 100px;
-}
-
-.resume__Ul li {
-  margin-bottom: 15px;
+.resume__projectTitle {
+  color: #f5f2f2;
+  font-size: 1.7rem;
+  text-align: center;
+  text-shadow: 4px 4px 4px rgb(6, 6, 6);
 }
 
 .resume__project-description {
   color: white;
   font-weight: 800;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   text-align: center;
+  text-shadow: 4px 4px 4px rgb(6, 6, 6);
+}
+
+.resume__Ul {
+  color: white;
+  font-weight: 800;
+  font-size:  0.9rem;
+  text-shadow: 4px 4px 4px rgb(6, 6, 6);
+  margin-bottom: 100px;
+}
+
+ul li::marker {
+  color: #faf7f7;
+}
+
+.resume__Ul li {
+  margin-bottom: 15px;
 }
   
 .resume__Hr {
+  box-shadow: 2px 2px 2px  rgb(22, 182, 210);
   position: relative;
   width: 100%;
   bottom: 30px;
-  border:  2px solid black;
+  border: 3px solid black;
   background-color: #020202;
-  z-index: 4;
-}
-  
-.resume__projectTitle {
-  color: #f5f2f2;
-  text-shadow: 4px 4px 4px rgb(6, 6, 6);
-  font-size: 2rem;
-  text-align: center;
-  z-index: 4;
-}
-  
-.resume__WorkListItems {
-  color: white;
-  font-size: 30px;
-  margin-left: opx;
-  padding: 0;
-  text-align: left;
 }
 
 pre {
   color: white;
   font-weight: 800;
   font-size: 1.2rem;
+  text-shadow: 4px 4px 4px rgb(6, 6, 6);
 }
 
 .resume__education {
   font-weight: 800;
+  text-shadow: 4px 4px 4px rgb(6, 6, 6);
 }
 
 .devicon-twitter-original {
-  text-decoration: none;
-  font-size: 2.5rem;
   color:#2686ed;
+  font-size: 1.8rem;
+  text-decoration: none;
   margin-left: 30px;
  }
 
 .devicon-linkedin-plain {
-  text-decoration: none;
-  font-size: 2.5rem;
   color: #0452d8;
+  font-size: 1.8rem;
+  text-decoration: none;
   margin-left: 30px;
 }
 
 .devicon-github-original-wordmark {
   color: #61dafb;
-  font-size: 2.8rem;
+  font-size: 2.1rem;
   text-decoration: none;
-  margin:auto;
 }
 
 .devicon-github-original-wordmark:hover,
 .devicon-linkedin-plain:hover,
 .devicon-twitter-original:hover {
-   color:white;
+  color:white;
 }
 
-p {
-    color: white;
-}
-
-@media (min-width: 30rem) {
-  .resume__info-and-links {
-    width: 25%;
-    margin:auto;
-   }
-
-   .resume__H1 {
-     font-size: 3.5rem;
+@media (min-width: 33.5rem) {
+   
+  .resume__H1 {
+    font-size: 3.5rem;
    }
 
    .resume__H2 {
-     font-size: 2rem;
+     font-size: 2.5rem;
    }
 
    .resume__personal-Info {
@@ -162,31 +141,65 @@ p {
    }
 
    .resume__opening-paragraph {
-    font-size: 1.4rem;
-    padding-left: 4rem;
+     font-size: 1.4rem;
+     padding-left: 4rem;
+   }
+
+   .resume__Ul {
+     font-size: 1.3rem;
+   }
+
+   .resume__projectTitle {
+    font-size: 2.5rem;
+  }
+
+   .resume__project-description {
+    font-size: 1.5rem;
    }
 
    .resume__skills {
     font-size: 1.7rem;
    }
+
+   .devicon-github-original-wordmark {
+    font-size: 3rem;
   }
+
+  .devicon-linkedin-plain,
+  .devicon-twitter-original {
+    font-size: 2.7rem;
+  }
+
+  pre {
+    font-size: 1.6rem;
+  }
+
+  .resume__education {
+    font-size: 1.2rem;
+  }
+}
   
    @media (min-width: 68rem){
-    .resume__info-and-links {
-      width: 12%;
-      margin:auto;
-    }
-
+  
     .resume__H1 {
       font-size: 3.9rem;
     }
- 
-    .resume__H2 {
-      font-size: 2.5rem;
-    }
- 
+
     .resume__personal-Info {
       font-size: 1.7rem;
+    }
+
+    .devicon-github-original-wordmark {
+      font-size: 4rem;
+    }
+    
+    .devicon-linkedin-plain,
+    .devicon-twitter-original {
+      font-size: 3.7rem;
+    }
+ 
+    .resume__H2 {
+      font-size: 3rem;
     }
  
     .resume__opening-paragraph {
@@ -199,7 +212,11 @@ p {
     }
 
     .resume__projectTitle {
-      font-size: 2.7rem;
+      font-size: 2.8rem;
+    }
+
+    .resume__project-description {
+      font-size: 2rem;
     }
 
     .resume__Ul {
@@ -209,10 +226,6 @@ p {
       margin: auto;
       width: 50%;
       margin-bottom: 100px;
-    }
-
-    .resume__project-description {
-      font-size: 2rem;
     }
 
     pre {
