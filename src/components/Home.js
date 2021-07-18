@@ -1,5 +1,6 @@
 import React from 'react'
 import Pic from '../Images/me2.jpeg'
+import '../CSS/HomePage.css'
 
 const Home = () =>{
     return (

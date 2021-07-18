@@ -1,0 +1,50 @@
+#home-div {
+    height: 750px;
+    position: relative;
+    top:100px;
+  }
+  
+  #welcome {
+    color:rgb(255, 254, 254);
+    font-family: OCR A Std, monospace;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 7px 7px 7px rgb(6, 6, 6);
+    position: relative;
+  }
+  
+  #me {
+    height: 250px;
+    width: auto;
+    position: relative;
+    bottom: 330px;
+    border-radius: 25px;
+    box-shadow: 15px 15px  15px black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #name {
+    color: #060606;
+    font-family: 'Rock Salt', cursive;
+    font-weight: 900;
+    font-size: 2.1rem;
+    text-shadow: 1px 1px 1px rgb(22, 182, 210);
+    text-align: center;
+    position: relative;
+    bottom:30px;
+  }
+  
+  #title {
+    color: #f3f9f3;
+    font-size: 1.1rem;
+    font-weight: 900;
+    font-family: OCR A Std, monospace;
+    text-shadow: 8px 8px 8px black;
+    position:relative;
+    top:230px;
+    padding-left: 25px;
+    padding-right: 10px;
+  }

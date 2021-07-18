@@ -6,61 +6,13 @@ html,body {
     margin: 0px;
     padding-bottom: 20px;
     overflow-x: hidden;
-    z-index: 1; 
 }
 
-#home-div{
-  width:70%;
-  height: 750px;
-  border-radius: 90px;
-  position: relative;
-  left:100px;
-  top:100px;
-  z-index: 4;
+body::-webkit-scrollbar {
+  display: none;
 }
 
-#welcome{
-  color:white;
-  position: relative;
-  left:300px;
-  top:80px;
-  font-family: OCR A Std, monospace;
-  font-size: 40px;
-  z-index: 4;
-}
 
-#me{
-  height: 400px;
-  width: auto;
-  position: relative;
-  left: 900px;
-  bottom: 200px;
-  margin: 0;
-  border-radius: 25px;
-  box-shadow: 1px 1px 6px 7px #15ed0a;
-  border: 10px solid rgb(63, 61, 61);
-}
-
-#name{
-  position: relative;
-  font-family: 'Rock Salt', cursive;
-  font-weight: 900;
-  font-size: 50px;
-  left:150px;
-  top:100px;
-  color: #f0f7f1;
-  z-index: 4;
-}
-
-#title{
-  color: #f3f9f3;
-  position:relative;
-  bottom:200px;
-  font-size: 30px;
-  font-family: OCR A Std, monospace;
-  z-index: 4;
-  overflow-y: scroll;
-}
 
 .navbar{
   color:#3fc64a;
