@@ -9,9 +9,7 @@ class Portfolio extends Component{
     return (
        <div>
          <h1 className="portfolio__H1">PROJECTS</h1>
-         <hr className="portfolio__line-break"></hr>
           <ILoveIpa />
-          <hr className="portfolio__line-break"></hr>
           <AmericanOutfitters />
        </div>
     )

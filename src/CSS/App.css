@@ -71,6 +71,7 @@ html,body {
   padding: 12px;
   background: #010101;
   border-bottom: 2px solid rgb(22, 182, 210);
+  box-shadow: 5px 5px 20px 5px  rgb(22, 182, 210);
   position: fixed;
   z-index: 999;
 }
