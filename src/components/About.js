@@ -5,9 +5,9 @@ import "../CSS/About.css"
 
 const About = () => {
     return (
-        <div className='about_container'>
-          <div className="about__overlayDiv">
-            <h1 className='about__H1'>My Story</h1>
+        <div >
+          <h1 className='about__H1'>My Story</h1>
+          <div className='about_container'>
             <p className='about__paragraph'>
               I was born and raised in a small town in California. I'm a very creative and outoging person who has a passion
               for technology. I love a good project, whether it's at home, working on my truck, or at work. I love the outdoors.
