@@ -1,50 +1,104 @@
-#home-div {
-    height: 750px;
-    position: relative;
-    top:100px;
+#homePage__container {
+  height: 750px;
+  position: relative;
+  top: 100px;
+}
+  
+#homePage__welcome {
+  color: rgb(255, 254, 254);
+  font-family: OCR A Std, monospace;
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 7px 7px 7px rgb(6, 6, 6);
+  position: relative;
+}
+  
+#homePage__pic {
+  height: 250px;
+  width: auto;
+  border-radius: 25px;
+  box-shadow: 15px 15px  15px black;
+}
+  
+#homePage__name {
+  color: #060606;
+  font-family: 'Rock Salt', cursive;
+  font-weight: 900;
+  font-size: 2.1rem;
+  text-shadow: 1px 1px 1px rgb(22, 182, 210);
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+  
+#homePage__opening-paragraph {
+  color: #f3f9f3;
+  font-size: 1.1rem;
+  font-weight: 900;
+  font-family: OCR A Std, monospace;
+  text-shadow: 8px 8px 8px black;
+  position: relative;
+  top: 230px;
+  padding-left: 25px;
+  padding-right: 10px;
+  padding: 0px 25px 70px 25px;
+}
+  
+.homePage__pic-container {
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
+
+@media (min-width: 31.5rem) {
+
+  #homePage__welcome {
+    font-size: 2.8rem;
+  }  
+  
+  #homePage__name { 
+    font-size: 2.8rem;
+    text-shadow: 2px 2px 2px rgb(22, 182, 210);
+  }  
+  
+  #homePage__pic {
+    height: 325px;
+  }  
+  
+  .homePage__pic-container {
+    top:25%;
+    left:32%;
   }
   
-  #welcome {
-    color:rgb(255, 254, 254);
-    font-family: OCR A Std, monospace;
-    font-size: 2.5rem;
-    font-weight: 500;
-    text-align: center;
-    text-shadow: 7px 7px 7px rgb(6, 6, 6);
-    position: relative;
+  #homePage__opening-paragraph {
+    font-size: 1.5rem;
+    top:350px;
+  }
+} 
+
+@media (min-width: 65.7rem) {
+
+  #homePage__welcome {
+    font-size: 3.4rem;
+  }  
+  
+  #homePage__name { 
+    font-size: 3.6rem;
+    text-shadow: 4px 4px 4px rgb(22, 182, 210);
+  }  
+  #homePage__pic {
+    height: 410px;
+  }  
+  
+  .homePage__pic-container {
+    top:33%;
+    left:39%;
   }
   
-  #me {
-    height: 250px;
-    width: auto;
-    position: relative;
-    bottom: 330px;
-    border-radius: 25px;
-    box-shadow: 15px 15px  15px black;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  #name {
-    color: #060606;
-    font-family: 'Rock Salt', cursive;
-    font-weight: 900;
-    font-size: 2.1rem;
-    text-shadow: 1px 1px 1px rgb(22, 182, 210);
-    text-align: center;
-    position: relative;
-    bottom:30px;
-  }
-  
-  #title {
-    color: #f3f9f3;
-    font-size: 1.1rem;
-    font-weight: 900;
-    font-family: OCR A Std, monospace;
-    text-shadow: 8px 8px 8px black;
-    position:relative;
-    top:230px;
-    padding-left: 25px;
-    padding-right: 10px;
-  }
+  #homePage__opening-paragraph {
+    font-size: 2rem;
+    top:450px;
+  } 
+}
