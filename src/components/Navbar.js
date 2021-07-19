@@ -1,7 +1,5 @@
 import React from 'react'
-
 import {NavLink} from 'react-router-dom';
-
 
 const Navbar = () => {
     return (
@@ -29,10 +27,8 @@ const Navbar = () => {
            exact
            className='navLink'
           >About</NavLink>
-          <p className="nav">Richard Kurwitz</p>
         </div>
     )
 }
-
 
 export default Navbar

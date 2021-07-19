@@ -12,12 +12,9 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-
-
 .navbar{
-  color:#3fc64a;
   top:0;
-  height:50px;
+  height: 30px;
   text-align: left;
   width: 100%;
   padding: 12px;
@@ -25,16 +22,16 @@ body::-webkit-scrollbar {
   border-bottom: 2px solid rgb(22, 182, 210);
   box-shadow: 5px 5px 20px 5px  rgb(22, 182, 210);
   position: fixed;
-  z-index: 999;
+  z-index: 10;
 }
 
 .navLink{
   font-weight: 900;
-  font-size: 30px;
+  font-size: 1rem;
   font-family: 'Rock Salt', cursive;;
   color: #5b5b5b;
-  text-shadow: 2px 2px 2px rgb(22, 182, 210);
-  padding: 18px;
+  text-shadow: 1px 1px 1px rgb(22, 182, 210);
+  padding: 10px;
   text-decoration: none;
 }
 
@@ -42,17 +39,17 @@ body::-webkit-scrollbar {
   color:#f4f1f1 ;
 }
 
-#signature{
-  font-family: 'Rock Salt', cursive;
-}
+@media (min-width: 31.5rem) {
 
-.nav{
-  color: #f9faf9;
-  position: relative;
-  left:1300px;
-  bottom:130px;
-  font-size: 40px;
-  font-family: 'Rock Salt', cursive;
+  .navbar{
+    height: 45px;
+  }
+
+  .navLink{
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 2px rgb(22, 182, 210);
+    padding: 15px;
+  }
 }
 
 
