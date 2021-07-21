@@ -1,5 +1,5 @@
 import React from 'react'
-import Pic1 from '../Images/Ao.jpeg'
+import Pic1 from '../Images/Outfiter.png'
 
 const AmericanOutfitters = () => {
     return (

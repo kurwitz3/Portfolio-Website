@@ -63,7 +63,7 @@ const Resume = () => {
                           <li className='resume__WorklistItems'>Performed maintenance on rig motor and rig equipment</li>
                       </ul>
                    <pre>Icicle Seafoods   05/07 - 05/08</pre>
-                   <pre>Deparment Supervisor </pre>
+                   <pre>Department Supervisor </pre>
                       <ul className="resume__Ul">
                           <li className='resume__WorklistItems'>Department supervisor on a fishing processor boat in the Bering Sea.</li>
                           <li className='resume__WorklistItems'>Supervised a 15-man crew responsible for packaging of salmon, opilio crab and king crab.</li>
