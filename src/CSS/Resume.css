@@ -128,7 +128,8 @@ pre {
 .devicon-twitter-original:hover {
   color:white;
 }
-p{
+
+p {
   color: white;
 }
 
@@ -182,6 +183,10 @@ p{
 
   .resume__education {
     font-size: 1.2rem;
+  }
+
+  p {
+    color: white;
   }
 }
   

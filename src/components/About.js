@@ -7,7 +7,7 @@ const About = () => {
           <h1 className='about__H1'>My Story</h1>
             <div className='about_container'>
               <p className='about__paragraph'>
-                I was born and raised in a small town in California. I'm a very creative and outoging person who has a passion
+                I was born and raised in a small town in California. I'm a very creative and outgoing person who has a passion
                 for technology. I love a good project, whether it's at home, working on my truck, or at work. I love the outdoors.
                 I also love grabbing a hot dog at a baseball game. 
               </p>
@@ -22,8 +22,8 @@ const About = () => {
               </p>
               <p className='about__paragraph'>
                 After some research, I joined FlatIron School's software engineering program, which I just recently graduated from in April of 2021. Now
-                I'm looking to start my career in full stack development and join a develpoment team where I can put my creativity and hard work
-                ethics to use.
+                I'm looking to start my career in full stack development and join a development team where I can put my creativity and hard work
+                ethic to use.
               </p>
             </div>
         </div>
