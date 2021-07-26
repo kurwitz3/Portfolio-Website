@@ -7,7 +7,6 @@ import Portfolio from './components/Portfolio'
 import Resume from './components/Resume'
 import About from './components/About'
 
-
 function App() {
   return (
     <Router>
